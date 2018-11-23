@@ -1,0 +1,258 @@
+.con_part1 {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 120px;
+}
+
+.left {
+	width: 210px;
+	height: 740px;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.list_container {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.left_list {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.checked {
+	color: #1fb375;
+	background-color: white;
+	border-left: 6px solid #1fb375;
+}
+
+.per_logo {
+	margin-left: 32px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.logo_checked {
+	margin-left: 25px;
+}
+
+.right {
+	width: 900px;
+	min-height: 740px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	font-size: 14px;
+}
+
+.message__box {
+	width: 100%;
+	min-height: 740px;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	line-height: 25px;
+	background-color: #fafafa;
+	position: relative;
+}
+
+.list_title_box {
+	height: 69px;
+	border-bottom: 1px solid #dadada;
+	padding-top: 20px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.input_container {
+	width: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.search {
+	position: absolute;
+	left: 70px;
+	top: 8px
+}
+
+.input_box1 {
+	width: 316px;
+	height: 28px;
+	font-size: 14px;
+	color: #c2c2c2;
+	text-align: center;
+	border: 1px solid #e2e2e2;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+.list_name {
+	width: 100%;
+	height: 59px;
+	line-height: 59px;
+	border-bottom: 1px solid #eff1f5;
+	position: relative;
+	background-color: white;
+}
+
+.title_list {
+	font-size: 16px;
+	margin-left: 22px;
+}
+
+.list_num_box {
+	color: #a7a7a7;
+}
+
+.arrow_box {
+	width: 12px;
+	position: absolute;
+	right: 33px;
+	top: 29px;
+}
+
+.arrow_up, .arrow_down {
+	position: absolute;
+	left: 0;
+	cursor: pointer;
+}
+
+.arrow_up {
+	display: none;
+}
+
+.list_content_container {
+	display: none;
+}
+
+.list_content {
+	width: 100%;
+	height: 83px;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 17px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eeeeee;
+	position: relative;
+}
+
+.receiver_address {
+	color: #909090;
+}
+
+.main_line {
+	margin: 0 20px;
+}
+
+.list_right {
+	color: #1fb375;
+	position: absolute;
+	top: 30px;
+	right: 40px;
+}
+
+.editor, .delete {
+	cursor: pointer;
+}
+
+.editor:hover, .delete:hover {
+	color: black;
+}
+
+.add_address_btn {
+	width: 100%;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	font-size: 14px;
+	color: #1fb375;
+	border-bottom: 1px solid #eeeeee;
+	cursor: pointer;
+}
+
+/*编辑*/
+.editor_pop {
+	width: 396px;
+	height: 340px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -198px;
+	margin-top: -170px;
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.editor_title {
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.addnew_input_box {
+	width: 318px;
+	height: 32px;
+	border: 1px solid #d0d0d0;
+	margin: 0 auto;
+	display: block;
+	text-indent: 9px;
+	color: #b3b3b3;
+	background-color: #fcfcfc;
+}
+
+.select_box {
+	width: 320px;
+	margin: 15px auto;
+}
+
+select {
+	width: 94px;
+	height: 32px;
+	text-indent: 9px;
+	background-color: #fcfcfc;
+	border: 1px solid #d0d0d0;
+	margin-right: 14px;
+}
+
+.btn_box1 {
+	width: 300px;
+	margin: 70px auto 0;
+}
+
+.ensure_btn, .cancel_btn {
+	width: 84px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 3px;
+	background-color: #1fb375;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.ensure_btn:hover {
+	background-color: #36a777;
+}
+
+.cancel_btn {
+	background-color: #c3c3c3;
+}
+
+.cancel_btn:hover {
+	background-color: #bdbdbd;
+}

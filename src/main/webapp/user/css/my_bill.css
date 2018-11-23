@@ -1,0 +1,120 @@
+.con_part1 {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 42px;
+}
+
+.left {
+	width: 210px;
+	height: 740px;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.list_container {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.left_list {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.checked {
+	color: #1fb375;
+	background-color: white;
+	border-left: 6px solid #1fb375;
+}
+
+.per_logo {
+	margin-left: 32px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.logo_checked {
+	margin-left: 25px;
+}
+
+.right {
+	width: 900px;
+	min-height: 740px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+}
+
+.message__box {
+	width: 100%;
+	min-height: 740px;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	position: relative;
+	font-size: 16px;
+}
+
+.total_debt {
+	width: 100%;
+	height: 140px;
+	line-height: 140px;
+	font-size: 14px;
+	padding-left: 22px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dadada;
+	position: relative;
+}
+
+.debt_price {
+	font-size: 40px;
+	font-weight: bold;
+	color: #1fb375;
+	position: absolute;
+	right: 40px;
+}
+
+.order_list {
+	width: 100%;
+	height: 100px;
+	padding-left: 22px;
+	padding-top: 27px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eeeeee;
+	position: relative;
+}
+
+.row1 {
+	position: relative;
+}
+
+.row2 {
+	font-size: 14px;
+	color: #909090;
+	margin-top: 10px;
+	position: relative;
+}
+
+.price1, .price2 {
+	position: absolute;
+	right: 40px;
+}
+
+.watch_more {
+	width: 80px;
+	font-size: 14px;
+	color: #1fb375;
+	cursor: pointer;
+	margin: 22px 0 41px 22px;
+}
+
+.more {
+	margin-left: 5px;
+}

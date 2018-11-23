@@ -1,0 +1,241 @@
+.con_part1 {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 274px;
+}
+
+.part1_top {
+	height: 58px;
+	line-height: 58px;
+	font-size: 14px;
+	padding-left: 20px;
+	border: 1px solid #eeeeee;
+}
+
+.part2_top {
+	height: 159px;
+	font-size: 14px;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	margin: 20px 0;
+}
+
+.progress {
+	width: 740px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #e5e5e5;
+	margin: 67px auto 0;
+	position: relative;
+}
+
+.state_list {
+	width: 78px;
+	text-align: center;
+	position: absolute;
+	top: -40px;
+}
+
+.state_title {
+	font-weight: bold;
+}
+
+.state_pic {
+	margin: 12px 0;
+}
+
+.date, .time {
+	color: #909090;
+}
+
+.list_infor {
+	width: 100%;
+	font-size: 14px;
+	border-top: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+}
+
+table th {
+	height: 48px;
+	border-bottom: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+	background-color: #f8f8f8;
+}
+
+table td {
+	line-height: 25px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.td_title {
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.td_content {
+	color: #909090;
+}
+
+.avatar1 {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	vertical-align: top;
+	margin-right: 15px;
+}
+
+.driver_infor {
+	display: inline-block;
+}
+
+.ensure_btn, .cancel_btn, .atonce_comment, .check_comment {
+	width: 84px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 3px;
+	background-color: #1fb375;
+	cursor: pointer;
+}
+
+.atonce_comment, .check_comment {
+	margin-top: 50px;
+}
+
+.ensure_btn, .cancel_btn {
+	display: inline-block;
+	margin: 0 30px;
+}
+/*打分*/
+.score_pop {
+	width: 416px;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -208px;
+	margin-top: -257px;
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.comment_sort {
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.start_box {
+	width: 340px;
+	margin: 0 auto;
+}
+
+.com_star1 {
+	margin: 0 8px;
+}
+
+.other_reason {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 17px;
+	text-align: center;
+}
+
+.describe {
+	width: 386px;
+	height: 118px;
+	font-size: 14px;
+	color: #c3c3c3;
+	border: 1px solid #d9d9d9;
+	margin: 20px auto;
+	display: block;
+	background-color: #fcfcfc;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.btn_box {
+	width: 300px;
+	margin: 0 auto 20px;
+}
+
+.ensure_btn:hover, .atonce_comment:hover {
+	background-color: #36a777;
+}
+
+.cancel_btn {
+	background-color: #c3c3c3;
+}
+
+.cancel_btn:hover {
+	background-color: #bdbdbd;
+}
+/*评价弹框*/
+.comment_pop {
+	width: 466px;
+	height: 572px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -233px;
+	margin-top: -286px;
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.comment_list_1, .comment_list_2 {
+	width: 118px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border: 1px solid #d9d9d9;
+	display: inline-block;
+	border-radius: 19px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.o_checked {
+	color: #1fb375;
+	border: 1px solid #1fb375;
+}
+
+.comment_list_2 {
+	margin-bottom: 15px;
+}
+
+.comment_content {
+	width: 380px;
+	margin: 0 auto;
+}
+
+.confirm_btn {
+	width: 84px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 3px;
+	background-color: #1fb375;
+	margin: 29px auto 0;
+	cursor: pointer;
+}
+
+.confirm_btn:hover {
+	background-color: #36a777;
+}

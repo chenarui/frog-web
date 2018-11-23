@@ -1,0 +1,177 @@
+.con_part1 {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+.left {
+	width: 210px;
+	height: 890px;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.list_container {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.left_list {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.checked {
+	color: #1fb375;
+	background-color: white;
+	border-left: 6px solid #1fb375;
+}
+
+.per_logo {
+	margin-left: 32px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.logo_checked {
+	margin-left: 25px;
+}
+
+.right {
+	width: 900px;
+	min-height: 890px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	font-size: 14px;
+	background-color: white;
+}
+
+.sort_person, .sort_company {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	color: #1fb375;
+	padding-left: 22px;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+}
+
+.sort_company {
+	color: #909090;
+	margin-top: 70px;
+}
+
+.item_list {
+	margin-top: 35px;
+}
+
+.title {
+	width: 80px;
+	text-align: right;
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.avatar_pic {
+	vertical-align: top;
+}
+
+.mark {
+	color: #f4564b;
+	margin-right: 5px;
+}
+
+.uploading_btn {
+	width: 74px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #909090;
+	border-radius: 3px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 35px;
+	cursor: pointer;
+}
+
+.uploading_btn:hover {
+	color: #1fb375;
+	border-color: #1fb375;
+	background-color: #e8f6f0;
+}
+
+.nickname_input {
+	width: 218px;
+	height: 32px;
+	text-indent: 10px;
+	border: 1px solid #d0d0d0;
+}
+
+/*radio样式更改*/
+.sex_sort_box {
+	cursor: pointer;
+	background-image: url(../img/radio.png);
+	background-repeat: no-repeat;
+	background-position: 0 1px;
+	display: inline-block;
+	margin-right: 45px;
+}
+
+.radioclass {
+	opacity: 0;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity = 0);
+}
+
+.on {
+	background-image: url(../img/radio1.png);
+}
+
+.sex_sort {
+	margin-left: 10px;
+}
+
+.btn_box {
+	margin-top: 105px;
+	font-size: 0;
+}
+
+.ensure_btn, .cancel_btn {
+	width: 84px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.ensure_btn {
+	background-color: #1fb375;
+	margin-left: 60px;
+}
+
+.ensure_btn:hover {
+	background-color: #36a777;
+}
+
+.cancel_btn {
+	background-color: #c3c3c3;
+	margin-left: 120px;
+}
+
+.cancel_btn:hover {
+	background-color: #bdbdbd;
+}

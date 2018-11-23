@@ -1,0 +1,169 @@
+.con_part1{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.part1_top{
+    height: 58px;
+    line-height: 58px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #f8f8f8;
+}
+.select_container{
+    width: 100%;
+    border: 1px solid #eeeeee;
+    margin-top: 50px;
+}
+.select_list{
+    width: 50%;
+    height: 370px;
+    float: left;
+    border-bottom: 1px solid #eeeeee;
+}
+.select_list_1{
+    border-bottom: 1px solid #eeeeee;
+}
+.select_list_title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.select_box{
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.select_title{
+    width: 95px;
+    text-align: right;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 7px;
+}
+.mark{
+    color: #f4564b;
+    margin-right: 5px;
+    padding: 0px;
+    background-color: #fff;
+}
+.input1{
+    width: 318px;
+    height: 32px;
+    color: #b3b3b3;
+    text-indent: 9px;
+    border: 1px solid #d0d0d0;
+    padding: 0px;
+}
+select{
+    width: 94px;
+    height: 32px;
+    color: #909090;
+    text-indent: 9px;
+    margin-right: 14px;
+    border: 1px solid #d0d0d0;
+}
+.select_spec{
+    width: 208px;
+}
+.select_btn{
+    width: 76px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    color: white;
+    font-size: 14px;
+    background-color: #1fb375;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+.select_btn:hover{
+    background-color: #36a777;
+}
+.select_box_1{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+.input2{
+    width: 94px;
+    height: 32px;
+    color: #b3b3b3;
+    text-indent: 9px;
+    border: 1px solid #d0d0d0;
+    margin-right: 15px;
+}
+.select_1{
+    width: 144px;
+}
+.total_price{
+    font-size: 24px;
+    color: #ffb85d;
+}
+.submit_order{
+    width: 248px;
+    height: 62px;
+    text-align: center;
+    line-height: 62px;
+    font-size: 22px;
+    color: white;
+    background-color: #1fb375;
+    margin: 40px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit_order:hover{
+    background-color: #36a777;
+}
+
+/*进度条*/
+#box{
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+}
+#bg{
+    width: 474px;
+    height: 10px;
+    margin-top: 19px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+#bgcolor{
+    background: #ffb85d;
+    width: 0;
+    height: 10px;
+    border-radius: 5px;
+}
+#bt{
+    width: 38px;
+    height: 38px;
+    background: url(../img/progress_btn.png) no-repeat center center;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    cursor: pointer;
+    margin-left: -19px;
+}
+#text{
+    font-size: 16px;
+    color: #ffb85d;
+}
+.date{
+	width: 318px;
+    margin-top: -22px;
+    margin-left: 106px;
+}

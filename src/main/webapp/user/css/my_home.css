@@ -1,0 +1,259 @@
+.con_part1 {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+.left {
+	width: 210px;
+	height: 816px;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.list_container {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.left_list {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.checked {
+	color: #1fb375;
+	background-color: white;
+	border-left: 6px solid #1fb375;
+}
+
+.per_logo {
+	margin-left: 32px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.logo_checked {
+	margin-left: 25px;
+}
+
+.right {
+	width: 900px;
+	height: 816px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+}
+
+.user_infor_box {
+	width: 100%;
+	height: 150px;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	line-height: 25px;
+	background-color: #fafafa;
+	position: relative;
+}
+
+.avatar_pic {
+	position: absolute;
+	left: 20px;
+	top: 24px;
+}
+
+.user_infor {
+	width: 100%;
+	padding-left: 155px;
+	box-sizing: border-box;
+}
+
+.infor_box1 {
+	position: relative;
+	margin-top: 55px;
+}
+
+.infor_box2 {
+	position: relative;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #909090;
+}
+
+.user_name, .user_phone {
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.user_sex {
+	margin-left: 3px;
+	margin-right: 10px;
+}
+
+.approve_sign {
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	background-color: #1fb375;
+	border-radius: 3px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.modify {
+	font-size: 14px;
+	color: #1fb375;
+	position: absolute;
+	right: 20px;
+	cursor: pointer;
+}
+
+.modify:hover {
+	color: black;
+}
+
+.message__box {
+	width: 100%;
+	height: 647px;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	line-height: 25px;
+	background-color: #fafafa;
+	position: relative;
+	margin-top: 20px;
+}
+
+.list_title_box {
+	/*width: 100%;*/
+	height: 68px;
+	border-bottom: 1px solid #dadada;
+}
+
+.list_title {
+	height: 68px;
+	font-size: 16px;
+	color: #676767;
+	font-weight: bold;
+	line-height: 68px;
+	display: inline-block;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin: 0 25px;
+}
+
+.ltitle_checked {
+	color: #1fb375;
+	border-bottom: 3px solid #1fb375;
+}
+
+.list_content {
+	width: 100%;
+	height: 83px;
+	font-size: 14px;
+	padding-left: 45px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.row1 {
+	padding-top: 20px;
+	position: relative;
+}
+
+.red_dot {
+	position: absolute;
+	left: -12px;
+	top: 30px;
+}
+
+.order_num {
+	color: #00a2ff;
+	text-decoration: underline;
+	margin: 0 5px;
+}
+
+.watch_more {
+	width: 80px;
+	font-size: 14px;
+	color: #1fb375;
+	margin-top: 24px;
+	margin-left: 45px;
+	cursor: pointer;
+}
+
+.more {
+	margin-left: 5px;
+}
+
+/*修改密码弹框*/
+.modify_login_pwd {
+	width: 396px;
+	height: 302px;
+	font-size: 14px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -198px;
+	margin-top: -151px;
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.mod_pwd_title {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+.pwd_input {
+	width: 318px;
+	height: 32px;
+	border: 1px solid #d0d0d0;
+	margin: 0 auto 15px;
+	display: block;
+	text-indent: 10px;
+	background-color: #fcfcfc;
+}
+
+.btn_box1 {
+	width: 300px;
+	margin: 35px auto 0;
+}
+
+.ensure_btn, .cancel_btn {
+	width: 84px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 3px;
+	background-color: #1fb375;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.ensure_btn:hover {
+	background-color: #36a777;
+}
+
+.cancel_btn {
+	background-color: #c3c3c3;
+}
+
+.cancel_btn:hover {
+	background-color: #bdbdbd;
+}

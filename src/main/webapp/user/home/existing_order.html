@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>已有订单</title>
+<link rel="stylesheet" href="../css/top.css">
+<link rel="stylesheet" href="../css/top2.css">
+<link rel="stylesheet" href="../css/existing_order.css">
+
+<script src="../js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="top_part1">
+			<div class="top_lr_box">
+				<div class="top_left">
+					<span class="welcome">欢迎光临XX平台！</span> <a href="#" class="reg_log"
+						id="login_a">登录</a> <span class="line_s" style="color: lightgray;">|</span>
+					<a href="#" class="reg_log" id="reg_a">注册</a>
+				</div>
+				<div class="top_right">
+					<a href="app_download.html" class="top_list1">APP下载</a> <span
+						class="line_s">|</span> <a href="aboutus.html" class="top_list1">关于我们</a>
+					<span class="line_s">|</span> <a href="#" class="top_list1">加入收藏</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="top_part2">
+			<div class="top_lr_box">
+				<div class="top_left">
+					<img src="../img/top_logo2.png" style="vertical-align: middle;">
+				</div>
+				<div class="top_right">
+					<a href="#" class="top_list2">首页</a> <a href="#" class="top_list2">在线下单</a>
+					<a href="#" class="top_list2"
+						style="color: #1fb375; background-color: white;">我的运单</a> <a
+						href="#" class="top_list2">个人中心</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="con_part1">
+		<div class="content">
+			<div class="part1_top">
+				指定派单 > <span style="color: #1fb375;">选择已有订单</span>
+			</div>
+
+			<div class="left">
+				<div class="select_container">
+					<div class="select_box">
+						<span>发货时间：</span> <select>
+							<option value="" style="display: none;">请选择</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select> <span>—</span> <select>
+							<option value="" style="display: none;">请选择</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select> <input type="text"
+							style="width: 260px; height: 28px; margin-left: 20px;"
+							placeholder="请输入订单号或运输地址"> <span class="search_btn">搜索</span>
+					</div>
+
+				</div>
+
+
+				<!--全部车辆-->
+				<table cellspacing="0" id="order_list_box">
+					<tr>
+						<th>订单号</th>
+						<th>运输地址</th>
+						<th>运输时间</th>
+						<th>货物信息</th>
+						<th>车辆需求</th>
+						<th>报价</th>
+						<th>状态</th>
+						<th>操作</th>
+					</tr>
+					<tr>
+						<td>00121AS</td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">浙江省杭州市</span>西湖区
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">浙江省宁波市</span>北仑区
+								</div>
+							</div></td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">2017-05-10</span>10:00
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">2017-05-12</span>10:00
+								</div>
+							</div></td>
+						<td><span class="order_car_infor">固体</span> <span
+							class="order_car_infor">2吨</span> <span class="order_car_infor">4方</span>
+						</td>
+						<td><span class="order_car_infor">5.8米</span> <span
+							class="order_car_infor">高栏</span> <span class="order_car_infor">5吨</span>
+						</td>
+						<td>
+							<div class="price">￥1650</div>
+							<div>（1500+追加10%）</div>
+						</td>
+						<td><span class="not_reach">未达成</span></td>
+						<td>
+							<div class="order_again">再次下单</div>
+						</td>
+					</tr>
+					<tr>
+						<td>00121AS</td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">浙江省杭州市</span>西湖区
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">浙江省宁波市</span>北仑区
+								</div>
+							</div></td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">2017-05-10</span>10:00
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">2017-05-12</span>10:00
+								</div>
+							</div></td>
+						<td><span class="order_car_infor">固体</span> <span
+							class="order_car_infor">2吨</span> <span class="order_car_infor">4方</span>
+						</td>
+						<td><span class="order_car_infor">5.8米</span> <span
+							class="order_car_infor">高栏</span> <span class="order_car_infor">5吨</span>
+						</td>
+						<td>
+							<div class="price">￥1650</div>
+							<div>（1500+追加10%）</div>
+						</td>
+						<td><span class="not_reach">未达成</span></td>
+						<td>
+							<div class="order_again">再次下单</div>
+						</td>
+					</tr>
+					<tr>
+						<td>00121AS</td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">浙江省杭州市</span>西湖区
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">浙江省宁波市</span>北仑区
+								</div>
+							</div></td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">2017-05-10</span>10:00
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">2017-05-12</span>10:00
+								</div>
+							</div></td>
+						<td><span class="order_car_infor">固体</span> <span
+							class="order_car_infor">2吨</span> <span class="order_car_infor">4方</span>
+						</td>
+						<td><span class="order_car_infor">5.8米</span> <span
+							class="order_car_infor">高栏</span> <span class="order_car_infor">5吨</span>
+						</td>
+						<td>
+							<div class="price">￥1650</div>
+							<div>（1500+追加10%）</div>
+						</td>
+						<td><span class="not_reach">未达成</span></td>
+						<td>
+							<div class="order_again">再次下单</div>
+						</td>
+					</tr>
+					<tr>
+						<td>00121AS</td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">浙江省杭州市</span>西湖区
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">浙江省宁波市</span>北仑区
+								</div>
+							</div></td>
+						<td><img src="../img/logo_f4.png" class="logo_f4">
+							<div class="dri_address">
+								<div class="dri_add1">
+									<span class="font_big">2017-05-10</span>10:00
+								</div>
+								<div class="dri_add2">
+									<span class="font_big">2017-05-12</span>10:00
+								</div>
+							</div></td>
+						<td><span class="order_car_infor">固体</span> <span
+							class="order_car_infor">2吨</span> <span class="order_car_infor">4方</span>
+						</td>
+						<td><span class="order_car_infor">5.8米</span> <span
+							class="order_car_infor">高栏</span> <span class="order_car_infor">5吨</span>
+						</td>
+						<td>
+							<div class="price">￥1650</div>
+							<div>（1500+追加10%）</div>
+						</td>
+						<td><span class="not_reach">未达成</span></td>
+						<td>
+							<div class="order_again">再次下单</div>
+						</td>
+					</tr>
+				</table>
+				<div class="page_turning">
+					<span class="total_infor">共24条信息</span> <span class="turn_page">上一页</span>
+					<span class="page_num">1</span> / <span class="total_num">1</span>
+					<span class="turn_page">下一页</span>
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+
+
+	<div class="footer">
+		<div class="qr_container">
+			<div class="qrcode_box">
+				<div class="foot_qr_text">司机端APP</div>
+				<div class="qrcode_img_box">
+					<img src="" class="qrcode_img">
+				</div>
+			</div>
+			<div class="qrcode_box" style="margin-left: 30px;">
+				<div class="foot_qr_text">用户端APP</div>
+				<div class="qrcode_img_box">
+					<img src="" class="qrcode_img">
+				</div>
+			</div>
+		</div>
+
+		<div class="footer_text">
+			关于我们 <span class="line_s">|</span> 帮助中心 <span class="line_s">|</span>
+			服务条款 <span class="line_s">|</span> 联系我们
+		</div>
+		<div class="footer_text">Copyright ©2016 北京运科网络科技有限公司 京ICP证
+			161112 号</div>
+	</div>
+
+	<!--登录注册弹框-->
+	<div class="mask"></div>
+	<div class="login">
+		<img src="../img/close_w.png" class="close_w">
+		<div class="logreg_top">
+			<div class="user_sort">个人登录</div>
+			<div class="user_sort">企业登录</div>
+		</div>
+		<div class="input_box">
+			<img src="../img/user.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请输入手机号">
+		</div>
+		<div class="input_box">
+			<img src="../img/lock.png" class="lock_logo"> <input
+				type="text" class="phone_num" placeholder="请输入密码">
+		</div>
+		<div class="forget_pwd">忘记密码？</div>
+
+		<div class="login_btn">登录</div>
+
+		<div class="third_party">第三方登录</div>
+		<div style="width: 100%; height: 35px;">
+			<div class="logo_box">
+				<img src="../img/wechart_logo.png" class="third_logo">
+			</div>
+			<div class="logo_box">
+				<img src="../img/qq_logo.png" class="third_logo">
+			</div>
+			<div class="logo_box">
+				<img src="../img/alipay.png" class="third_logo">
+			</div>
+		</div>
+		<div style="clear: both;" class="bottom_text">
+			还没有账号？<span style="color: #1fb375">立即注册</span>
+		</div>
+	</div>
+
+	<div class="regist">
+		<img src="../img/close_w.png" class="close_w">
+		<div class="logreg_top">
+			<div class="user_sort">个人登录</div>
+			<div class="user_sort">企业登录</div>
+		</div>
+		<div class="input_box_reg">
+			<img src="../img/user.png" class="user_logo"> <input
+				type="text" class="phone_num pn_spec" placeholder="请输入手机号"
+				style="width: 305px;"> <span class="get_vcdoe">获取验证码</span>
+		</div>
+		<div class="input_box_reg" style="margin-top: 20px;">
+			<img src="../img/vcode.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请输入验证码">
+		</div>
+		<div class="vcode_error">验证码有误</div>
+		<div class="input_box_reg">
+			<img src="../img/lock.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请设置登录密码"> <img
+				src="../img/checked.png" class="checked_logo">
+		</div>
+		<div class="input_box_reg" style="margin-top: 20px;">
+			<img src="../img/lock.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请再次确认登录密码"> <img
+				src="../img/checked.png" class="checked_logo">
+		</div>
+
+		<div class="reg_btn" id="reg_btn">注册</div>
+
+	</div>
+	<div class="bind_phone_num">
+		<img src="../img/close_w.png" class="close_w">
+		<div class="bind_phone">绑定手机号</div>
+		<div class="input_box_reg">
+			<img src="../img/user.png" class="user_logo"> <input
+				type="text" class="phone_num pn_spec" placeholder="请输入手机号"
+				style="width: 305px;"> <span class="get_vcdoe">获取验证码</span>
+		</div>
+		<div class="input_box_reg" style="margin-top: 20px;">
+			<img src="../img/vcode.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请输入验证码">
+		</div>
+
+		<div class="reg_btn">提交</div>
+
+	</div>
+
+	<div class="modify_pwd">
+		<img src="../img/close_w.png" class="close_w">
+		<div class="pwd_forget">忘记密码？</div>
+		<div class="input_box_reg">
+			<img src="../img/user.png" class="user_logo"> <input
+				type="text" class="phone_num pn_spec" placeholder="请输入手机号"
+				style="width: 305px;"> <span class="get_vcdoe">获取验证码</span>
+		</div>
+		<div class="input_box_reg" style="margin-top: 20px;">
+			<img src="../img/vcode.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请输入验证码">
+		</div>
+		<div class="vcode_error">验证码有误</div>
+		<div class="input_box_reg">
+			<img src="../img/lock.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请设置登录密码"> <img
+				src="../img/checked.png" class="checked_logo">
+		</div>
+		<div class="input_box_reg" style="margin-top: 20px;">
+			<img src="../img/lock.png" class="user_logo"> <input
+				type="text" class="phone_num" placeholder="请再次确认登录密码"> <img
+				src="../img/checked.png" class="checked_logo">
+		</div>
+
+		<div class="reg_btn">确定</div>
+
+	</div>
+	<div class="reg_success">
+		<img src="../img/checked_big.png" style="margin: 60px 0 30px">
+		<div style="font-size: 20px;">注册成功！</div>
+		<div style="font-size: 14px; color: #a7a7a7; margin-top: 15px;">通过企业认证才能下单，马上去认证吧</div>
+		<div class="reg_btn approve">去认证</div>
+	</div>
+
+</body>
+</html>
+<script src="../js/common.js"></script>
+<script>
+
+
+</script>

@@ -1,0 +1,66 @@
+.top_part2 {
+	background-color: #1fb375;
+}
+
+.top_part2 a {
+	color: white;
+}
+
+.top_list2:hover {
+	color: #1fb375;
+	background-color: white;
+}
+
+.footer {
+	background-color: #f4f4f4;
+}
+
+.foot_qr_text, .footer_text {
+	color: #717171;
+}
+
+/*翻页*/
+.page_turning {
+	width: 100%;
+	height: 40px;
+	text-align: right;
+	line-height: 40px;
+	font-size: 14px;
+	color: #909090;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.total_infor {
+	margin-right: 20px;
+}
+
+.page_num {
+	color: #1fb375;
+	margin-left: 20px;
+}
+
+.total_num {
+	margin-right: 20px;
+}
+
+.turn_page {
+	width: 78px;
+	height: 38px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #dddddd;
+	background-color: #f8f8f8;
+	cursor: pointer;
+}
+
+.turn_page:hover {
+	color: #1fb375;
+	border-color: #1fb375;
+	background-color: #e8f6f0;
+}
+
+.active {
+	color: #1fb375 !important;
+	background-color: white;
+}

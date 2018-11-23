@@ -1,0 +1,152 @@
+.con_part1 {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 140px;
+}
+
+.left {
+	width: 210px;
+	height: 722px;
+	border: 1px solid #eeeeee;
+	background-color: #fafafa;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.list_container {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.left_list {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.checked {
+	color: #1fb375;
+	background-color: white;
+	border-left: 6px solid #1fb375;
+}
+
+.per_logo {
+	margin-left: 32px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+.logo_checked {
+	margin-left: 25px;
+}
+
+.right {
+	width: 900px;
+	height: 722px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+}
+
+.message__box {
+	width: 100%;
+	height: 722px;
+	box-sizing: border-box;
+	border: 1px solid #eeeeee;
+	line-height: 25px;
+	background-color: #fafafa;
+	position: relative;
+}
+
+.list_title_box {
+	height: 68px;
+	border-bottom: 1px solid #dadada;
+	position: relative;
+}
+
+.list_title {
+	height: 68px;
+	font-size: 16px;
+	color: #676767;
+	font-weight: bold;
+	line-height: 68px;
+	display: inline-block;
+	padding: 0 19px;
+	box-sizing: border-box;
+	margin: 0 30px;
+	cursor: pointer;
+}
+
+.ltitle_checked {
+	color: #1fb375;
+	border-bottom: 3px solid #1fb375;
+}
+
+.list_content {
+	width: 100%;
+	height: 139px;
+	font-size: 16px;
+	border-bottom: 1px solid #eeeeee;
+	position: relative;
+}
+
+.comment_avatar {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	margin: 25px 22px 0;
+	vertical-align: top;
+}
+
+.person_infor {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.star_box {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.date, .row3 {
+	font-size: 14px;
+	color: #909090;
+}
+
+.label {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.list_right {
+	position: absolute;
+	top: 64px;
+	right: 35px;
+}
+
+.right_arrow {
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+.watch_more {
+	width: 80px;
+	font-size: 14px;
+	color: #1fb375;
+	margin-top: 28px;
+	margin-left: 24px;
+	cursor: pointer;
+}
+
+.more {
+	margin-left: 5px;
+}
+
+.comment_list2 {
+	display: none;
+}

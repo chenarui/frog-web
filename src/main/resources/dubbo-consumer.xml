@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://code.alibabatech.com/schema/dubbo
+    http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+	<dubbo:application name="frog-consumer" />
+	<!-- 使用zookeeper注册中心暴露服务地址 -->
+	<!-- 注册中心地址 192.168.1.127 -->
+	<!-- <dubbo:registry protocol="zookeeper" address="zookeeper://127.0.0.1:2181"/>注册中心地址 
+		192.168.1.127 <dubbo:registry protocol="zookeeper" address="zookeeper://127.0.0.1:2181"/> -->
+	<dubbo:registry protocol="zookeeper" address="zookeeper://127.0.0.1:2181" />
+	<dubbo:reference interface="com.frog.service.UserService"
+		id="userService" />
+
+	<dubbo:reference interface="com.frog.service.CommonService"
+		id="commonService" />
+
+	<dubbo:reference interface="com.frog.service.TaskService"
+		id="taskService" />
+
+	<dubbo:reference interface="com.frog.service.TaskTakeService"
+		id="taskTakeService" />
+
+	<dubbo:reference interface="com.frog.service.UserAddressService"
+		id="userAddressService" />
+
+	<dubbo:reference interface="com.frog.service.ExchangeInfoService"
+		id="exchangeInfoService" />
+
+	<dubbo:reference interface="com.frog.service.FrogGoodService"
+		id="frogGoodService" />
+
+	<dubbo:reference interface="com.frog.service.UserChipService"
+		id="userChipService" />
+
+	<dubbo:reference interface="com.frog.service.UserChipInfoService"
+		id="userChipInfoService" />
+
+	<dubbo:reference interface="com.frog.service.SysConfigService"
+		id="sysConfigService" />
+
+	<dubbo:reference interface="com.frog.service.SysMessageService"
+		id="sysMessageService" />
+
+	<dubbo:reference interface="com.frog.service.manage.ManageService"
+		id="manageService" />
+
+	<dubbo:reference interface="com.frog.service.FrogAwardsDetailService"
+		id="frogAwardsDetailService" />
+
+	<dubbo:reference interface="com.frog.service.FrogAwardService"
+		id="frogAwardService" />
+
+	<dubbo:reference interface="com.frog.service.FrogActivityService"
+		id="frogActivityService" />
+	<dubbo:reference interface="com.frog.service.PushService"
+		id="pushService" />
+	<dubbo:reference interface="com.frog.service.TaskAwardService"
+		id="taskAwardService" />
+	<dubbo:reference interface="com.frog.service.FrogActivityEventService"
+		id="frogActivityEventService" />
+	<dubbo:reference interface="com.frog.service.FrogActivityUserService"
+		id="frogActivityUserService" />
+	<dubbo:reference interface="com.frog.service.FrogActivityEventPlaceService"
+		id="frogActivityEventPlaceService" />
+	<dubbo:reference interface="com.frog.service.FrogActivityAwardHisService"
+		id="frogActivityAwardHisService" />
+	<dubbo:reference interface="com.frog.service.FrogActivityShowService"
+		id="frogActivityShowService" />
+	<dubbo:reference interface="com.frog.service.ProposalService"
+		id="ProposalService" />
+	<dubbo:reference interface="com.frog.service.StatisticsService"
+		id="statisticService" />
+	<dubbo:reference interface="com.frog.service.FrogPlayService"
+		id="frogPlayService" />
+</beans>

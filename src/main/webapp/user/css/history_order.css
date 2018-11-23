@@ -1,0 +1,273 @@
+.infor_list_top {
+	font-size: 0;
+	border: 1px solid #eeeeee;
+	border-top: 2px solid #383e44;
+	margin-top: 20px;
+}
+
+.item_sort {
+	width: 123px;
+	height: 57px;
+	text-align: center;
+	line-height: 57px;
+	font-size: 18px;
+	display: inline-block;
+	border-right: 1px solid #eeeeee;
+	cursor: pointer;
+}
+
+.checked {
+	background-color: #383e44;
+	color: white;
+}
+
+.left {
+	margin-top: 0px;
+}
+
+.select_container {
+	border-top: none;
+	border-bottom: none;
+}
+
+select {
+	padding-left: 8px;
+}
+
+.order_num {
+	color: #4ba8e9;
+	text-decoration: underline;
+}
+
+.check_comment, .atonce_comment, .check_handle, .check_complain {
+	width: 82px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #909090;
+	border-radius: 3px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.check_comment:hover, .atonce_comment:hover, .check_handle:hover,
+	.check_complain:hover {
+	color: #1fb375;
+	border-color: #1fb375;
+	background-color: #e8f6f0;
+}
+
+/*评价弹框*/
+.comment_pop {
+	width: 466px;
+	height: 572px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -233px;
+	margin-top: -286px;
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.comment_sort {
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.start_box {
+	width: 340px;
+	margin: 0 auto;
+}
+
+.com_star1 {
+	margin: 0 8px;
+}
+
+.comment_list_1, .comment_list_2 {
+	width: 118px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border: 1px solid #d9d9d9;
+	display: inline-block;
+	border-radius: 19px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.o_checked {
+	color: #1fb375;
+	border: 1px solid #1fb375;
+}
+
+.comment_list_2 {
+	margin-bottom: 15px;
+}
+
+.comment_content {
+	width: 380px;
+	margin: 0 auto;
+}
+
+.confirm_btn {
+	width: 84px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 3px;
+	background-color: #1fb375;
+	margin: 29px auto 0;
+	cursor: pointer;
+}
+
+.confirm_btn:hover {
+	background-color: #36a777;
+}
+
+/*打分*/
+.score_pop {
+	width: 416px;
+	height: 514px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -208px;
+	margin-top: -257px;
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.other_reason {
+	width: 100%;
+	font-size: 18px;
+	margin-top: 17px;
+	text-align: center;
+}
+
+.describe {
+	width: 386px;
+	height: 118px;
+	font-size: 14px;
+	color: #c3c3c3;
+	border: 1px solid #d9d9d9;
+	margin: 20px auto;
+	display: block;
+	background-color: #fcfcfc;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.btn_box {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.ensure_btn, .cancel_btn {
+	width: 84px;
+	height: 34px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 3px;
+	background-color: #1fb375;
+	display: inline-block;
+	margin: 0 30px;
+	cursor: pointer;
+}
+
+.ensure_btn:hover {
+	background-color: #36a777;
+}
+
+.cancel_btn {
+	background-color: #c3c3c3;
+}
+
+.cancel_btn:hover {
+	background-color: #bdbdbd;
+}
+
+/*处理详情*/
+.handle_pop {
+	width: 417px;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.handle_title {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+.handle_content {
+	width: 324px;
+	margin: 0 auto;
+}
+/*投诉详情*/
+.complain_pop {
+	width: 417px;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	/*margin-left: -208px;
+    margin-top: -286px;*/
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 14px;
+}
+
+.complain_title {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+.comment_list {
+	width: 118px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border: 1px solid #d9d9d9;
+	display: inline-block;
+	border-radius: 19px;
+	margin: 0 10px 20px;
+	cursor: pointer;
+}
+
+.o_checked {
+	color: #1fb375;
+	border: 1px solid #1fb375;
+}
+
+.complain_content {
+	width: 324px;
+	margin: 0 auto;
+}
